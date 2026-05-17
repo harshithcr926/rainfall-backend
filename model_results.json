@@ -1,0 +1,77 @@
+{
+  "accuracies": {
+    "Logistic Regression": 86.3,
+    "K-Nearest Neighbors": 85.08,
+    "Random Forest": 87.17,
+    "Gradient Boosting": 87.85,
+    "SVM": 87.1,
+    "Deep Learning (MLP)": 89.19
+  },
+  "features": [
+    "TEMP_MEAN_C",
+    "TEMP_MAX_C",
+    "TEMP_MIN_C",
+    "HUMIDITY_pct",
+    "SPECIFIC_HUMIDITY_gkg",
+    "WIND_SPEED_10m_ms",
+    "WIND_DIRECTION_deg",
+    "SURFACE_PRESSURE_kPa",
+    "DEW_POINT_C",
+    "SOLAR_RADIATION_MJm2",
+    "CLOUD_COVER_pct",
+    "EVAPOTRANSPIRATION_mm",
+    "PRECIPITATION_mm"
+  ],
+  "importances": {
+    "TEMP_MEAN_C": 1.74,
+    "TEMP_MAX_C": 1.97,
+    "TEMP_MIN_C": 3.09,
+    "HUMIDITY_pct": 6.49,
+    "SPECIFIC_HUMIDITY_gkg": 22.3,
+    "WIND_SPEED_10m_ms": 1.65,
+    "WIND_DIRECTION_deg": 1.87,
+    "SURFACE_PRESSURE_kPa": 2.27,
+    "DEW_POINT_C": 10.67,
+    "SOLAR_RADIATION_MJm2": 2.26,
+    "CLOUD_COVER_pct": 15.52,
+    "EVAPOTRANSPIRATION_mm": 2.43,
+    "PRECIPITATION_mm": 27.74
+  },
+  "dl_info": {
+    "type": "Multi-Layer Perceptron Neural Network",
+    "architecture": "Input(13) \u2192 Dense(128, ReLU) \u2192 Dense(64, ReLU) \u2192 Dense(32, ReLU) \u2192 Output(1, Sigmoid)",
+    "layers": [
+      13,
+      128,
+      64,
+      32,
+      1
+    ],
+    "activation": "relu",
+    "optimizer": "adam",
+    "epochs_run": 21,
+    "loss_curve": [
+      0.4934,
+      0.3352,
+      0.2889,
+      0.27,
+      0.2594,
+      0.2481,
+      0.241,
+      0.2319,
+      0.2231,
+      0.2171,
+      0.2079,
+      0.2027,
+      0.1938,
+      0.1865,
+      0.177,
+      0.1751,
+      0.1616,
+      0.1556,
+      0.1481,
+      0.1442,
+      0.1346
+    ]
+  }
+}

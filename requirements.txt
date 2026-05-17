@@ -1,0 +1,11 @@
+flask==3.0.3
+flask-cors==4.0.1
+scikit-learn==1.5.2
+numpy==1.26.4
+joblib==1.4.2
+pandas==2.2.3
+gunicorn==22.0.0
+
+# Deep Learning (optional — uncomment ONE of these):
+# tensorflow>=2.15.0        # Full Keras/TF deep learning
+# tensorflow-cpu>=2.15.0   # CPU-only version (lighter)
